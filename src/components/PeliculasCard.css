@@ -1,0 +1,26 @@
+.moviesCard{
+    list-style: none;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.moviesImage{
+    border-radius: 5%;
+    background-color: azure;
+    width: 230px;
+    height: 345px;
+}
+
+.moviesImage:hover{
+    box-shadow: 0 0 11px rgb(91, 91, 91);
+    filter: grayscale(90%);
+}
+
+/* Media Queries */
+
+@media(max-width: 560px){
+    .moviesImage{
+        width: 90%;
+        height: auto;
+    }
+}

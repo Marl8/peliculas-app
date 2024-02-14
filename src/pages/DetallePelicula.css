@@ -1,0 +1,73 @@
+*{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+body{
+    max-height: 100vh;
+    background: linear-gradient(99.6deg, rgb(112, 128, 152) 10.6%, rgb(242, 227, 234) 32.9%, rgb(234, 202, 213) 52.7%, rgb(220, 227, 239) 72.8%, rgb(185, 205, 227) 81.1%, rgb(154, 180, 212) 102.4%); 
+    background-repeat: no-repeat;
+    background-size: 100% 300%;
+}
+
+.contenedorDetalle{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+header{
+    background: linear-gradient(180.3deg, rgb(100, 230, 221) 5.5%, rgb(110, 136, 161) 90.2%); 
+}
+
+.contenedorDetalle{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+.col{
+    max-width: 500px;
+    margin: 15px;
+    height: auto;
+    width: auto;
+    border-radius:15px ;
+}
+
+.peliculaDetalle{
+    margin-top: 2.5%;
+    color: white;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.img-pelicula{
+    background-color: black;
+    padding: 0.5rem;
+}
+
+.item{
+    margin-top:0;
+}
+
+.titlePelicula{
+    font-size: 1.3rem;
+}
+
+.logo_container{
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.494);
+    border-radius: 2%;
+    width: auto;
+}
+
+.logosCompanias{
+    width: 14%;
+    height: 14%;
+    margin-right: 5%;
+}
+
+footer{
+    bottom: 0%;
+    background: linear-gradient(180.3deg, rgb(100, 230, 221) 5.5%, rgb(110, 136, 161) 90.2%); 
+}
