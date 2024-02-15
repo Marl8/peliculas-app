@@ -10,7 +10,8 @@ export const Buscador = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        navigate(`/?search=${txtBuscador}`)
+        navigate(`/peliculas-app/?search=${txtBuscador}`)
+        setBuscador("");
     }
 
     return(

@@ -81,7 +81,7 @@ export const App = () => {
             </a>
           </li>
         </ul>
-          <p className="text-center text-body-secondary pb-3">© 2024 Company, Inc</p>
+          <p className="text-center text-body-secondary pb-3">© 2024 Martin Lemberger</p>
       </footer>
     </BrowserRouter>
   );
