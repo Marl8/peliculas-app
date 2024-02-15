@@ -49,7 +49,7 @@ export const App = () => {
       </header>
 
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route path="/peliculas-app" element={<LandingPage />} />
         <Route path="/pelicula/:id" element={<DetallePelicula />} />
       </Routes>
 
